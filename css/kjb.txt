@@ -1,0 +1,23 @@
+<main class= "grid">
+	<article>
+	<img src ="" width="300px" height="380px">
+	<div class ="konten">
+		<h2> APPtizer</h2>
+		<p>merupakan hidangan utama. </p>
+	</div>
+	</article>
+
+<style>
+.grid{
+display:grid;
+grid-template-colums: repeat(3,1fr);
+margin: 80px;
+align-items:center;
+display-gap: 20px;}
+
+img{
+object-fit:cover;
+}
+.grid > article{
+	box-shadow: 10px 5px 5px 0px black;
+}
